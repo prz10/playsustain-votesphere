@@ -1,0 +1,11 @@
+{
+  "regions": ["fra1"],
+  "functions": {
+    "src/app/**/*.tsx": {
+      "maxDuration": 10
+    },
+    "src/app/api/**/*.ts": {
+      "maxDuration": 30
+    }
+  }
+}
